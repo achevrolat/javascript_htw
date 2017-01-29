@@ -18,7 +18,7 @@ function restart(){
 //Launch the game.
 //IMPORTANT: you have to press the Spiel button to display cards
 
-function startGame() {
+function start() {
         var myMise = parseInt(document.getElementById("Mise").value);
         var myPM = parseInt(document.getElementById("PM").value);
         console.log(myMise + " " + myPM);
