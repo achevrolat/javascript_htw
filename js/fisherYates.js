@@ -4,7 +4,7 @@ var cardsThree = [];
 
 
 function main(){
-    CreateCards();
+    createCards();
     clearFields();
 
 }
