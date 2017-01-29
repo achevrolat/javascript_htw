@@ -31,7 +31,7 @@ function startGame() {
             cardsThree = shuffle(cardsThree);
 
             displayCards();
-            var win = WinOrLoose();
+            var win = victoryConditions();
             console.log(win);
             if(win == 0){
                 document.getElementById("PM").value = myPM + myMise * 2;
@@ -70,7 +70,7 @@ function displayCards(){
 
 }
 
-function CreateCards(){
+function createCards(){
 
     cardsOne.push("roiPique");
     cardsOne.push("roiCoeur");
@@ -88,7 +88,7 @@ function CreateCards(){
 
 
 //Conditions of victory
-function WinOrLoose(){
+function victoryConditions(){
     var carte = [];
     var tmp="";
 
